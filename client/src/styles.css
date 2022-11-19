@@ -1,0 +1,141 @@
+#aside {
+    position: sticky; 
+    top: 0px;
+    background-color:white;
+    height: 100vh;
+}
+
+#body {
+    background-color:#f9f9f999;
+}
+
+
+.font1 {
+    font-size: 30px;
+    font-family: Trebuchet MS;
+    font-style: normal;
+    color:#020202d0;
+}
+
+.font2 {
+    font-size: 35px;
+    font-family:Brush Script MT;
+    color:#39BDC8;
+}
+
+.font3 {
+    font-size: 30px;
+    font-family:Trebuchet MS;
+    font-style: normal;
+    color:#000000d0;
+}
+
+
+#modalbtnsubmit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#modalbtncancel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#winner {
+    background-color: #51f83e28;
+}
+
+#looser {
+    background-color: white;
+}
+
+#opencard {
+    background-color: #39bcc829;
+}
+
+#closedcard {
+    background-color: #f8473e17;
+}
+
+#responses {
+    margin-bottom:20px;
+}
+
+#riddlecardcontainer {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+#topbar {
+    margin-top: -7px;
+}
+
+#timer {
+    margin-top: 10px;
+    width: 50px;
+    height: 28px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+#note {
+    font-size: 12px;
+    color:grey
+}
+
+#cardtitle {
+   margin-top:10px;
+}
+
+#dashboard {
+    background-color: #f9f9f999;
+    margin-right: -10px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+#asidealert {
+    margin-right: -10px;
+    margin-top: 12px;
+}
+
+#dashboardlist {
+    background-color: #fbfbfb
+}
+
+#you {
+    font-weight: bold;
+}
+
+#pic {
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+}
+
+#userpic {
+    width: 20px;
+    height: 20px;
+    margin-top:-3px;
+    margin-right: 15px;
+}
+
+
+#scorepic {
+    width: 17px;
+    height: 17px;
+    margin-top:-4px;
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+#emptyresponselist {
+    margin: 10px;
+}
+
+#you {
+    color:#39BDC8;
+    font-weight: bold;
+}
+

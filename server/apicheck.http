@@ -1,0 +1,33 @@
+GET http://localhost:3001/api/riddles/open
+###
+GET http://localhost:3001/api/riddles/closed
+###
+GET http://localhost:3001/api/riddles/96/responses
+###
+GET http://localhost:3001/api/users/ranking
+###
+GET http://localhost:3001/api/riddles/:id/riddleWinner
+###
+POST http://localhost:3001/api/users/1/riddle
+Content-Type: application/json
+
+{
+    "status": "OPEN",
+    "duration": 75,
+    "residualtime": 60,  
+    "difficulty": "AVERAGE",
+    "question": "Qual è il colmo per ...?",
+    "hint1": "prova1",
+    "hint2": "prova2",
+    "correctResponse": "prova"
+
+}
+###
+POST http://localhost:3001/api/users/1/riddles/1/response
+Content-Type: application/json
+
+{
+    "text": "buonasera"
+}
+
+###
